@@ -1,0 +1,6 @@
+query Launches {
+	launches(limit: 10) @paginate(mode: SinglePage) {
+		id
+		mission_name
+	}
+}
